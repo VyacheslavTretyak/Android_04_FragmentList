@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <EditText android:id="@+id/dialog_lastname" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="LastName"
+            android:textSize="8pt" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText android:id="@+id/dialog_firstname" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="FirstName"
+            android:textSize="8pt" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText android:id="@+id/dialog_email" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Email"
+            android:textSize="8pt" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnApply"
+            android:text="Ok" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="Cancel" />
+    </TableRow>
+</TableLayout>
